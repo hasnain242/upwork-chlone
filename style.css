@@ -1,0 +1,98 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 8px;
+}
+.links {
+    margin-top: 16px;
+}
+#searchid{
+    background-image: url('./download-removebg-preview.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+#span{
+    position: absolute ;
+        right: 0%;
+        margin-right: 200px;
+        top: 7%;
+}
+.p{
+    background-color: white;
+    position: absolute;
+    right: 0%;
+    margin-right: 140px;
+    top: 5%;
+    
+}
+li:hover{
+    color: green;
+}
+.p:hover{
+    color: green;
+}
+.button-1{
+     background-color: green;
+     color: white;
+     position: absolute;
+     right: 0%;
+     margin-right: 20px;
+     top: 6%;
+    padding: 10px;
+    border-radius: 20px;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+.h1{
+    color: green;
+    font-family: sans-serif
+
+}
+.para {
+    position: sticky;
+    top: 10px;
+    left: 5px;
+    margin-top: -20px;
+
+}
+div{
+    padding-left:100px ;
+}
+.img{
+    position: absolute;
+    right: 3px;
+    top: 100px;
+}
+.button-2{
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-left: 7%;
+}
+.button-3{
+    border-radius: 20px;
+     margin-left: 2%;
+     padding: 5px;
+     color: green;
+}
+.cards{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 500px;
+    flex-wrap: wrap;
+    justify-content:space;
+}
+
